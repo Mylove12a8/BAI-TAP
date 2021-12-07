@@ -1,0 +1,80 @@
+# BAI-TAP
+bai tap
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    transform-style: initial;
+    background: linear-gradient(to right, #c7ecee,yellow);
+}
+nav {
+    background-color: green;
+    margin-top: -5px;
+    text-align: center;
+}
+nav>a {
+    font-weight: 550;
+    color: #fff;
+    height: 30px;
+    line-height: 50px;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 20px 50px;
+    font-family: sans-serif;
+    transform-style: inherit;
+
+}
+.container {
+    position: relative;
+}
+.section {
+    background-color:#fff;
+    width: 350px;
+}
+ul {
+    color: black;
+}
+ul>li {
+    list-style: none;
+    border-bottom: 1px dotted black ;
+
+}
+ul>li>a {
+    font-size: 20px;
+    line-height:50px ;
+    text-decoration: none;
+    color: black;
+    padding: 0 30px;
+    font-weight: 550;
+
+}
+
+.content { 
+   float: right;
+   width: 900px;
+   margin-right: 22%;
+}
+
+footer {
+    width: 100%;
+    font-size: 18px;
+    line-height: 45px;
+    background-color: green;
+    color: #fff;
+    height: 55px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-family: sans-serif;
+    transform-style:initial;
+    padding-top: 8px;
+
+}
+
+img{
+    width: 100vw;
+    height: 50vh;
+    object-fit: cover;
+}

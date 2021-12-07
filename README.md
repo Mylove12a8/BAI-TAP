@@ -1,2 +1,0 @@
-# BAI-TAP
-bai tap
